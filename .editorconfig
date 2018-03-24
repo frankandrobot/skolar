@@ -12,6 +12,6 @@ insert_final_newline = true
 charset = utf-8
 
 # Indentation override for all JS under lib directory
-[*.js]
+[*.{js,.babelrc}]
 indent_style = space
 indent_size = 2
