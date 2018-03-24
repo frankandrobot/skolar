@@ -1,4 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-ReactDOM.render(<h1>Hello, world!</h1>, document.getElementById("root"));
+import "semantic-ui-css/semantic.min.css";
+
+import { Button } from "semantic-ui-react";
+
+const ButtonExampleButton = () => <Button>Click Here</Button>;
+
+ReactDOM.render(<ButtonExampleButton />, document.getElementById("root"));
